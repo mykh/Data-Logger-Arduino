@@ -87,7 +87,7 @@ settings =
   10 * 60, // analogIntervalSec
   10 * 60, // tempIntervalSec
   10 * 60, // watchDogIntervalSec
-  {PIN_NONE, PIN_NONE, PIN_NONE, PIN_NONE}, // analogPins
+  {A0, PIN_NONE, PIN_NONE, PIN_NONE}, // analogPins
   {3, PIN_NONE, PIN_NONE, PIN_NONE, PIN_NONE, PIN_NONE, PIN_NONE, PIN_NONE}, // motionPins
   2, // oneWirePin
   8 // sdCardErrorPin
@@ -395,7 +395,7 @@ void loop(void)
       int value = 0;
       const int MeasurementCount = 10;
       for (int j = 0; j < MeasurementCount; j++)
-        value += analogRead(A0 + pin);
+        value += analogRead(pin);
       value /= MeasurementCount;
       sprintf(buff, "%d", value);
       SensorLog('A', i, buff, &now);
