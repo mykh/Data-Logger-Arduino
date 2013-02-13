@@ -3,7 +3,7 @@ Arduino-based sensors logger
 
 This device was developed to log data from motion sensors, temperature sensors and analog inputs to SD card.  
 It also provides easy access to data and configuration through terminal software. List of supported commands:
-* ls -  list root directory contents
+* ls -  list root directory contents;
 * cat file - print file;
 * rm file - remove file;
 * temp - show current temperature;
