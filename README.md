@@ -1,7 +1,7 @@
 Arduino-based sensors logger
 ============================
 
-Logging data from motion sensors, temperature sensors and analog inputs to SD card. Reading logged data using serial port.
+This device was developed to log data from motion sensors, temperature sensors and analog inputs to SD card.
 
 Example of usage
 ================
