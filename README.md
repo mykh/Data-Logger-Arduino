@@ -8,7 +8,7 @@ It also provides easy access to data and configuration through terminal software
 * rm file - remove file;
 * temp - show current temperature;
 * date [unixtime] - show/set date and time;
-* ver - show version of software
+* ver - show version of software;
 * name - show device name;
 * conf - show full device configuration;
 * reset - reboot device.
