@@ -12,6 +12,7 @@ This Logger also provides easy access to data and configurations through termina
 * name - show device name;
 * conf - show full device configuration;
 * reset - reboot device.
+
 The device consist of:
 1. The "brain" is an Arduino board with ATmega328 microcontroller.
 2. RTC (Real Time Clock) module based on DS1307 chip that keeps track of the current time.
