@@ -1,5 +1,7 @@
 Arduino-based sensors logger
 ============================
+![ScreenShot](https://raw.github.com/mykh/Data-Logger-Arduino/gh-pages/images/sensors_logger_device.jpg)
+
 
 The purpose of this device is to record data from motion sensors, temperature sensors (based on DS18B20 chip) and analog input to an SD card in CSV (comma-separated values) format so you can easily export the data to Microsoft Excel or LibreOffice Calc.
 
