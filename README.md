@@ -1,8 +1,8 @@
 Arduino-based sensors logger
 ============================
 
-This device was developed to log data from motion sensors, temperature sensors and analog inputs to SD card.  
-It also provides easy access to data and configuration through terminal software. List of supported commands:
+The purpose of this device is to record data from motion sensors, temperature sensors (based on DS18B20 chip) and analog input to an SD card in CSV (comma-separated values) format so you can easily export the data to Microsoft Excel or LibreOffice Calc.
+This Logger also provides easy access to data and configurations through terminal software on the go. Here is a list of supported commands:
 * ls -  list root directory contents;
 * cat file - print file;
 * rm file - remove file;
@@ -12,6 +12,11 @@ It also provides easy access to data and configuration through terminal software
 * name - show device name;
 * conf - show full device configuration;
 * reset - reboot device.
+The device consist of:
+1. The "brain" is an Arduino board with ATmega328 microcontroller.
+2. RTC (Real Time Clock) module based on DS1307 chip that keeps track of the current time.
+3. SD card reader which supports SPI mode.
+4. Optional. Bluetooth to serial module for remote access to this device.
 
 Example of usage
 ================
